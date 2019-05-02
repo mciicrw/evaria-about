@@ -87,3 +87,28 @@ body, html {
 .pagPad{
   margin-bottom: 0em;
 }
+
+.sc{
+  color: grey;
+}
+
+.sc:hover{
+  color: orangered;
+}
+
+.sc:disabled{
+  color: grey;
+}
+
+.bc{
+  color: grey;
+}
+
+.bc:hover{
+  color:limegreen;
+}
+
+.bc-disabled{
+  color: grey;
+  pointer-events: none;
+}
